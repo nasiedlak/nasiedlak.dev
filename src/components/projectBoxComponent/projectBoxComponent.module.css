@@ -47,6 +47,7 @@
 
 .githubAnchor:hover {
     text-decoration: underline;
+    max-height: 10px;
 }
 
 .desc {
