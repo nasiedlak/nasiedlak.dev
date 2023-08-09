@@ -8,13 +8,13 @@ const BoxComponent = () => {
     return (
         <div className={styles.box}>
             <div className={styles.iconWrapper}>
-                <a href={githubLink}>
+                <a className={styles.imageAnchor} href={githubLink}>
                     <img src={`${process.env.PUBLIC_URL}/github.png`} alt="GitHub" className={styles.iconGitHub} />
                 </a>
-                <a href={linkedinLink}>
+                <a className={styles.imageAnchor} href={linkedinLink}>
                     <img src={`${process.env.PUBLIC_URL}/linkedin.png`} alt="LinkedIn" className={styles.iconLinkedIn} />
                 </a>
-                <a href={instagramLink}>
+                <a className={styles.imageAnchor} href={instagramLink}>
                     <img src={`${process.env.PUBLIC_URL}/Instagram.png`} alt="Instagram" className={styles.iconInstagram} />
                 </a>
             </div>

@@ -15,6 +15,13 @@ function App() {
             <TextComponent location="welcomeMessage" text={WELCOME_MESSAGE} />
             <TextComponent location="aboutMe" text={ABOUT_ME} />
             <TextComponent location="school" text={SCHOOL} />
+            <div>
+              <p className="connect">
+                Reach out via email at&nbsp; 
+                <a className="connectAnchor" href="mailto:nasiedlak@wisc.edu">nasiedlak@wisc.edu</a>
+                !
+              </p>
+            </div>
           </div>
           <div className="decorationWrapper">
             <div className="imageWrapper">

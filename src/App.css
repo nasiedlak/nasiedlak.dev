@@ -37,6 +37,30 @@ body {
   overflow: hidden;
 }
 
+.connect {
+  color: #C9C9C9;
+  font-family: Inter-Bold;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 1.5rem;
+  letter-spacing: -.01rem;
+  max-width: 30rem;
+}
+
+.connectAnchor {
+  color: #9E577C;
+  text-decoration: none;
+}
+
+.connectAnchor:hover {
+  text-decoration: underline;
+  max-height: 10px;
+}
+
 .decorationWrapper {
   box-sizing: border-box;
   grid-row: span 1;

@@ -2,8 +2,6 @@
     box-sizing: border-box;
     height: 122px;
     padding: 1rem;
-    border-radius: 10px;
-    border: 1px solid #252525;
     background: transparent;
     display: flex;
     justify-content: center;
@@ -19,8 +17,8 @@
 }
  
 .iconGitHub, .iconLinkedIn, .iconInstagram {
-    max-width: 45%;
-    max-height: 45%;
+    max-width: 35%;
+    max-height: 35%;
     width: auto;
     height: auto;
     transition: transform 0.3s ease;
@@ -30,7 +28,7 @@
     transform: scale(1.05);
 }
 
-a {
+.imageAnchor {
     width: 100%;
     height: 100%;
     display: flex;
