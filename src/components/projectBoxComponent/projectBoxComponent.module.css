@@ -1,0 +1,66 @@
+.box {
+    box-sizing: border-box;
+    height: 100px;
+    padding-top: 7.5rem;
+    padding-left: 16rem;
+    border-radius: 10px;
+    border: 1px solid #414141;
+    background: #2C2C2C;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.025);
+}
+
+.projectDate {
+    box-sizing: border-box;
+    display: block;
+    letter-spacing: -.06rem;
+    color: #9E577C;
+    font-family: Menlo;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.githubAnchor {
+    box-sizing: border-box;
+    display: block;
+    letter-spacing: -.06rem;
+    color: #C9C9C9;
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    text-decoration: none;
+}
+
+.githubAnchor:hover {
+    text-decoration: underline;
+}
+
+.desc {
+    box-sizing: border-box;
+    display: block;
+    letter-spacing: -.01rem;
+    color: #7f7f7f;
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    max-width: 90%;
+}

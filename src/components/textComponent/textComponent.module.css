@@ -1,0 +1,119 @@
+.welcomeMessage {
+    color: #E0E2DB;
+    font-family: Inter-Bold;
+    font-size: 3rem;
+    font-weight: 500;
+    position: relative;
+    line-height: 1.1;
+}
+
+.aboutMe {
+    color: #C9C9C9;
+    font-family: Inter-Bold;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+    letter-spacing: -.01rem;
+    max-width: 27rem;
+}
+
+.school {
+    color: #C9C9C9;
+    font-family: Inter-Bold;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+    letter-spacing: -.01rem;
+    max-width: 27rem;
+}
+
+.projects {
+    color: #C9C9C9;
+    font-family: Inter-Bold;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    position: relative;
+    margin-bottom: 1.5rem;
+    margin-top: 0rem;
+}
+
+.experiences {
+    color: #C9C9C9;
+    font-family: Inter-Bold;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    position: relative;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+}
+
+.skills {
+    color: #C9C9C9;
+    font-family: Inter-Bold;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    position: relative;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.desc1 {
+    color: #C9C9C9;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 275px;
+    left: 42px;
+    max-width: 75%;
+    flex-shrink: 0;
+    white-space: pre-line;
+}
+
+.desc2 {
+    color: #C9C9C9;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 440px;
+    left: 42px;
+    width: 600px;
+    height: 172px;
+    flex-shrink: 0;
+    white-space: pre-line;
+}
+
+.desc3 {
+    color: #C9C9C9;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 640px;
+    left: 42px;
+    width: 600px;
+    height: 172px;
+    flex-shrink: 0;
+    white-space: pre-line;
+}

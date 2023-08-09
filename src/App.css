@@ -1,0 +1,173 @@
+body {
+  background-color: #191716;
+  margin: 0;
+  padding: 0;
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.container {
+  flex: 1 1;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75rem;
+  padding: 2rem 2rem;
+  box-sizing: border-box;
+  background-color: #191716;
+  overflow: hidden;
+}
+
+.introWrapper {
+  align-items: stretch;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  box-sizing: border-box;
+}
+
+.introTextWrapper {
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.decorationWrapper {
+  box-sizing: border-box;
+  grid-row: span 1;
+}
+
+.imageWrapper {
+  width: 100%;
+}
+
+.profile {
+  max-width: 55%;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px #161413;
+  float: inline-end;
+}
+
+.projectWrapper {
+  box-sizing: border-box;
+  min-height: 400px;
+}
+
+.projectBoxesWrapper {
+  box-sizing: border-box;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.experiencesWrapper {
+  box-sizing: border-box;
+}
+
+.experienceDropdownsWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.experience1 {
+  box-sizing: border-box;
+  display: flex;
+  gap: 1rem;
+  padding: 1.4rem 0;
+}
+
+.experience2 {
+  box-sizing: border-box;
+  display: flex;
+  gap: 1rem;
+  padding: 1.4rem 0;
+}
+
+.experience3 {
+  box-sizing: border-box;
+  display: flex;
+  gap: 1rem;
+  padding: 1.4rem 0;
+}
+
+footer {
+  box-sizing: border-box;
+  padding: 3rem 0;
+}
+
+section {
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+nav {
+  box-sizing: border-box;
+  display: flex;
+  gap: .25rem;
+  margin: 0 1rem;
+}
+
+span {
+  box-sizing: border-box;
+  display: flex;
+  box-sizing: border-box;
+  display: block;
+  letter-spacing: -.06rem;
+  color: #C9C9C9;
+  font-family: Inter;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+  .introWrapper {
+    grid-template-columns: 1fr;
+  }
+  .decorationWrapper {
+    margin-bottom: 1.5rem;
+  }
+  .imageWrapper {
+    width: 70%;
+    min-width: 60%;
+  }
+  .profile {
+    max-width: 65%;
+    float: inline-start;
+  }
+}
+
+@media (max-width: 660px) {
+  .projectBoxesWrapper {
+    box-sizing: border-box;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter/static/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("fonts/Inter/static/Inter-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Menlo";
+  src: url("fonts/Menlo/Menlo-Regular.woff") format("woff");
+}

@@ -1,0 +1,9 @@
+.lineComponent {
+    background-color: #414141;
+    width: 1728px;
+    height: 4px;
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
